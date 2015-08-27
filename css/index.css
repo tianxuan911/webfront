@@ -1,0 +1,190 @@
+body {
+	font: 12px arial;
+}
+
+#container {
+	margin: 0 auto;
+	height: 100px;
+	width: 100%;
+}
+/*头部*/
+#header {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0 96px 0 0;
+	margin: 19px 0px 5px;
+	color: white;
+}
+
+#header a.mnav, #header a.mnav:visited {
+	color: #333;
+	float: left;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 24px;
+	margin-left: 20px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#header a.bri, #u1 a.bri:visited {
+	background: #38f none repeat scroll 0 0;
+	border-bottom: 1px solid #38f;
+	color: white;
+	display: inline-block;
+	float: left;
+	font-size: 13px;
+	height: 23px;
+	line-height: 24px;
+	margin-left: 19px;
+	margin-right: 2px;
+	overflow: hidden;
+	position: absolute;
+	right: 10px;
+	text-align: center;
+	width: 60px;
+	text-decoration: none;
+}
+
+#header a.pf, #header a.pf:visited {
+	display: inline-block;
+	float: left;
+	color: #333;
+	line-height: 24px;
+	font-size: 13px;
+	margin-left: 20px;
+	overflow: hidden;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#header a.lb, #header a.lb:visited, #header a.username {
+	display: inline-block;
+	float: left;
+	color: #333;
+	font-size: 13px;
+	line-height: 24px;
+	margin-left: 20px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+/*中部*/
+#content {
+	height: 100%;
+	text-align: center;
+	min-height: 600px;
+}
+
+.s_ipt {
+	position: relative;
+	width: 500px;
+	height: 22px;
+	font: 16px/18px arial;
+	margin: 6px 0px 0px 7px;
+	padding: 0px;
+	background: none repeat scroll 0% 0% transparent;
+	border: 0px none;
+	outline: 0px none;
+}
+
+.s_btn {
+	width: 100px;
+	height: 36px;
+	color: #FFF;
+	font-size: 15px;
+	letter-spacing: 1px;
+	background: none repeat scroll 0% 0% #3385FF;
+	border-bottom: 1px solid #2D78F4;
+	outline: medium none;
+	cursor: pointer;
+	border: 0px none;
+	padding: 0px;
+}
+
+.s_btn_wr {
+	width: auto;
+	height: auto;
+	border-bottom: 1px solid transparent;
+	display: inline-block;
+}
+
+.allspan {
+	border-width: 1px 0px 1px 1px;
+	border-style: solid;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	background: #FFF none repeat scroll 0% 0%;
+	display: inline-block;
+	vertical-align: top;
+	width: 539px;
+	margin-right: 0px;
+	border-color: #B8B8B8 transparent #CCC #B8B8B8;
+	overflow: hidden;
+	height: 34px;
+	position: relative;
+}
+
+#form {
+	margin: 22px auto 0px;
+	width: 641px;
+	text-align: left;
+	z-index: 100;
+	padding: 0px;
+}
+
+#s_form_wrapper {
+	position: relative;
+	top: -191px;
+}
+
+#s_form {
+	position: relative;
+	top: 40.5%;
+}
+/*脚部*/
+#footer {
+	position: absolute;
+	bottom: 44px;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	margin: 0px auto;
+}
+
+#lh {
+	margin: 16px 0px 5px;
+}
+
+.lhf {
+	margin: 0px 10px;
+	color: #00C;
+	cursor: pointer;
+	text-decoration: underline;
+	display: inline;
+	text-align: center;
+}
+
+#cp {
+	color: #666;
+}
+
+#cp a.hf {
+	text-decoration: underline;
+	color: #666;
+	margin: 16px 0px 5px;
+}
+
+#cp .c-icon-icrlogo {
+	width: 14px;
+	height: 17px;
+	display: inline-block;
+	overflow: hidden;
+	background: transparent url("https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/img/icons_45de3f02.png") no-repeat scroll -600px -96px;
+	position: relative;
+	top: 3px;
+}
